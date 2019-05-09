@@ -15,13 +15,13 @@
     <!-- Header!
     ================================================== -->
   <header>
-<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
       
       
       
     <img src="img/humansOnly.png" class="human">
-            <a href="theUncannyAtlas.html" style="text-decoration:none"> 
+            <a href="https://rhahn01.github.io/theUncannyAtlas/" style="text-decoration:none"> 
       <img src="img/title.png" style="Padding:.4em" class="uncanny" >
       </a>
     
@@ -41,7 +41,7 @@
   <!-- Main!
     ================================================== -->
 <!--    <a href="theUncannyAtlas.html" style="text-decoration:none"> -->
-    <button id="myBtn" title="start over">REFRESH</button>
+    <button id="myBtn" title="scroll up">Return to Top</button>
 <!--    </a>-->
     
     <div class="buttons">
@@ -171,10 +171,14 @@
       {{#url}}<a href="{{url}}" target="_blank">{{/url}}
         <div class="thingWrapper" >
           <p style= "text-align:center" class="title">{{content/Work}}</p>
-          <b> <p class="yearMade">{{yearMade}}</p></b> 
-            <p class="type">{{type}}</p>
-          <p class="descr">{{description}}</p>
+          <i> <p class="yearMade">{{yearMade}}</p></i> 
+                                 {{#description}}<p class="descr">{{description}}</p>{{/description}}
+<div class="tag">
+<div class="showOnHover"> <p class="type">{{type}}</p>  </div>
             {{#image}}<img src="img/{{year}}/{{image}}" class="content"/>{{/image}}
+                      <p class="serial">serial #: {{serial}}</p>       
+
+      </div>
         </div>
       {{#url}}</a>{{/url}}
     </li>
@@ -187,7 +191,7 @@
 <!--  <script  src="js/index.js"></script>-->
   <script type="text/javascript">
 $.getJSON(
-  "https://api.sheety.co/6109c5fd-c31f-46fd-9828-bc8b7205c894",
+  "https://api.sheety.co/92b7a586-da17-4947-93bb-4b3fd177cd8c",
   function(data) {
     var template = $("#thingTemplate").html();
     var info = Mustache.to_html(template, data);

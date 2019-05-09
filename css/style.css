@@ -70,12 +70,22 @@ img {
     box-shadow: 0 0 .5em .5em rgba(184,184,184);
     border: lightgrey solid 1.5px;
 }
+    
+.content{
+    
+    transition: all 300ms;
+    transform: scale(1);
+}
 
+.content:active {
+    transform: scale(1.5);
+}
 
+.tag {
+position: relative;
+    
 
-.content[image=""] { 
-        box-shadow: none;
-    }
+}
 
 
 h1{
@@ -90,12 +100,13 @@ h1{
     padding-top: 4em;
      font-size:2.3vw;
     letter-spacing: 1px;
+    font-weight: 300;
 }
 
 
 @media (min-width: 20em) {
     .title {
-    font-size: 2.4vw;
+    font-size: 3vw;
     }
 }
 
@@ -120,22 +131,38 @@ h1{
 
 .type {
     font-family: sans-serif;
-    font-size: .9em;
+    font-size: .7em;
+color: black;
 }
 
+/*
+.subject {
+    font-family: sans-serif;
+    font-size: .8em;
+    display: block;
+    color: black;
+
+}
+*/
 
 
 .descr {
      font-family: sans-serif;
-    font-size: 1em;
+    font-size: .8em;
         text-align: center;
-    padding-bottom: 1em;
     letter-spacing: .5px;
     padding-top:.1em;
 
 }
 
-
+.serial {
+      font-family: sans-serif;
+    font-size: .7em;
+        text-align: center;
+    padding-bottom: 1em;
+    letter-spacing: .5px;
+    padding-top:.1em;
+}
 
 .biology {
     font-size: 1vw;
@@ -345,8 +372,33 @@ p{
 background: white;
     max-width: 100%;
   height: auto;
+
     
 }
+
+.tag .showOnHover {
+ /* just to make it look designed for the demo */
+  background: lightgrey;
+  color: white;
+  padding:.3em .3em;
+  /* the important stuff is below here */
+  /* stick it in the corner */
+  position: relative;
+    margin-right: auto;
+        margin-left: auto;
+    width: 15em;
+    
+  /* make it disapear */
+  display: none;
+
+}
+
+.tag:hover .showOnHover {
+  /* make it show up when you hover over the parent */
+  display: block;
+}
+
+    
 
 .cover {
   border: 1px solid;

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>capcha</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header!
+    ================================================== -->
+
+  
+    
+<h1 style="title">PROVE YOU ARE HUMAN</h1>
+<h3> (From Specimen Mycederma)</h3>
+
+
+  <!-- Main!
+    ================================================== -->
+
+  <section id="sectiondensa">
+    <div class="cover">
+        <i><h2 style="font-family: palatino linotype">DENSACARNICULA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>    
+
+  <section id="sectionthera">
+    <div class="cover">
+         <i><h2 style="font-family: palatino linotype">THERA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>    
+        
+  <section id="sectionhapsi">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">HAPSIDOTHERA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>    
+        
+  <section id="sectionduro">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">DUROSAURA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>    
+        
+  <section id="sectionitera">
+    <div class="cover">
+       <i>  <h2 style="font-family: palatino linotype">ITERANASPIDA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>    
+        
+  <section id="sectionmollusc">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">MOLLUSCARNICULA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>    
+        
+     <section id="sectionrobusto">
+    <div class="cover">
+       <i>  <h2 style="font-family: palatino linotype">ROBUSTOPALLIUS</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectionungui">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">UNGUICARNICULA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectionlentu">
+    <div class="cover">
+         <i><h2 style="font-family: palatino linotype">LENTUPALLIUS</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectionvesica">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">VESICAPALLIUS</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+      
+       <section id="sectionsacco">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">SACCOPALLIUS</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectionfirma">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">FIRMACARNICULA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectionfracto">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">FRACTOCRUSTA</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectiongemi">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">GEMIBRACCHIUM</h2></i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+       <section id="sectiontuman">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">TUMANTHOZOA</h2> </i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+      
+        <section id="sectionmicro">
+    <div class="cover">
+        <i> <h2 style="font-family: palatino linotype">MICROBE</h2> </i>
+    </div>
+    <ul class="list-reset stack">
+    </ul>
+  </section>
+    <h5>Information provided by</h5>
+                  <img src="img/cmrd.jpg" class="cmrd" />
+
+      
+  <ul id="things" class="list-reset none">
+  </ul>
+    
+    
+<div class= "background">
+    
+    </div>
+  <!-- Template for JSON!
+    ================================================== -->
+  <script id="thingTemplate" type="text/x-mustache-template">
+    {{#.}}
+<div class="button">
+    <li class="thing y{{phylum}}">
+      {{#url}}<a href="{{url}}">{{/url}}
+        <div class="thingWrapper" >
+          {{#content/Work}}<p style= "text-align:center;">{{content/Work}}</p>{{/content/Work}}
+          <p>{{description}}</p>
+          <img src="img/{{phylum}}/{{image}}" class="center"/>
+        </div>
+      {{#url}}</a>{{/url}}
+    </li>
+      </div>
+    {{/.}}
+  </script>
+    
+    <!-- Javascript goes down here -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js'></script>
+<!--  <script  src="js/index.js"></script>-->
+  <script type="text/javascript">
+$.getJSON(
+  "https://api.sheety.co/7bbc4201-c30a-4e21-a498-fb29f9691490",
+  function(data) {
+    var template = $("#thingTemplate").html();
+    var info = Mustache.to_html(template, data);
+    $("#things").append(info);
+    
+    $(".ydensa").appendTo( "#sectiondensa .stack" );
+    $(".ythera").appendTo( "#sectionthera .stack" );
+    $(".yhapsi").appendTo( "#sectionhapsi .stack" );
+    $(".yduro").appendTo( "#sectionduro .stack" );
+    $(".yitera").appendTo( "#sectionitera .stack" );
+    $(".ymollusc").appendTo( "#sectionmollusc .stack" );
+    $(".yrobusto").appendTo( "#sectionrobusto .stack" );
+    $(".yungui").appendTo( "#sectionungui .stack" );
+    $(".ylentu").appendTo( "#sectionlentu .stack" );
+    $(".yvesica").appendTo( "#sectionvesica .stack" );
+    $(".ysacco").appendTo( "#sectionsacco .stack" );
+    $(".yfirma").appendTo( "#sectionfirma .stack" );
+    $(".yfracto").appendTo( "#sectionfracto .stack" );
+    $(".ygemi").appendTo( "#sectiongemi .stack" );
+    $(".ytuman").appendTo( "#sectiontuman .stack" );
+    $(".ymicro").appendTo( "#sectionmicro .stack" );
+
+
+
+     
+    $(".cover").click(function() { 
+      $(this)
+        .parent()
+        .find(".stack")
+        .slideToggle();
+        // .toggleClass("expanded");
+      console.log("toggled?");
+    });
+  }
+);    
+  </script>
+    
+</body>
+
+</html>
