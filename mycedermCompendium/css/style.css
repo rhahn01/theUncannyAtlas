@@ -1,0 +1,181 @@
+body { 
+  margin:0;
+  padding:0; 
+  font-family: futura, sans-serif;
+    background-color: rgb(72,72,72);
+}
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 33vw;
+}
+
+.cmrd {
+    padding:.4em;
+ max-width: 24%;
+  height: auto;
+  max-height: relative;
+margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.banner {
+       padding:.4em;
+ max-width: 24%;
+  height: auto;
+  max-height: relative;
+}
+
+
+.background {
+    color: black;
+}
+.top {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.center{
+        display: block;
+  padding: 5px;
+/*    float:left;*/
+    border: orange solid 2px;
+}
+.button {
+        display: block;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+        letter-spacing: 6px;
+    font-family: palatino linotype;
+}
+h2 {
+     letter-spacing: 4px;
+    font-size: 5vw;
+    padding-left: .6em;
+padding-top: .4em; 
+    text-align: center;
+}
+
+@media (min-width: 50em) {
+    h2 {
+     letter-spacing: 4px;
+    font-size: 2vw;
+    }
+}
+
+h3 {
+    text-align: center;
+    max-height: 4.3vw;
+    color: antiquewhite;
+    font-family: futura;
+    font-weight: 100;
+}
+
+h5 {
+    padding: 1em;
+    color: white;
+    font-family: futura;
+    font-weight: 100;
+        max-height: 2.3vw;
+        text-align: center;
+}
+
+h6 {
+    padding: 1em;
+    color: azure;
+}
+p{
+    text-align: center;
+        color: black;
+
+}
+
+.pp{
+    text-align: center;
+        color: peachpuff;
+    padding-top: 1em;
+    letter-spacing: 5px;
+}
+
+
+
+.list-reset {
+  margin:1em;
+  padding:0;
+  list-style:none;
+    
+}
+
+.none { display:none; }
+
+.clearfix::after,
+.group::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.cf::after,
+.clearfix::after,
+ul.stack::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#things { border-top: 1px solid;}
+#things .thing { border-bottom: 1px solid; }
+.thingWrapper {
+  padding: 1em;
+background: white;
+    
+}
+.thing {
+    float: left;
+    width: calc(100% / 3);
+    box-sizing: border-box;
+}
+.thing:nth-child(3n+1) {
+    clear: left;
+}
+
+.cover {
+  border: 1px solid;
+  background: white;
+  box-shadow: 0 0 .5em .5em rgba(0,0,0,.3);
+  padding: 1em;
+  margin: 1em;
+  cursor: url("pointer.png"), auto;
+}
+
+.cover:hover {
+    transform: scale(1.05);
+}
+
+.stripe {
+  border-bottom: 1px solid black;
+}
+
+.stripe:nth-of-type(1) {
+  border-top: 1px solid;
+}
+
+.stack {
+  display: none;
+  background: white;
+}
+

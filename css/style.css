@@ -1,0 +1,420 @@
+body { 
+  margin:0;
+  padding:0; 
+  font-family: futura, sans-serif;
+    background-color: black;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 30em;
+}
+
+.banner {
+       padding:.4em;
+ max-width: 24%;
+  height: auto;
+  max-height: relative;
+
+}
+
+.button {
+     height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+.thumb {
+    max-height: 25em;
+    max-width: 22em;
+    display: flex;
+   flex-wrap: wrap;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.uncanny {
+      cursor:url("pointer.png"), auto;
+
+}
+
+.bio {
+   max-height: 15em;
+}
+.background {
+    color: black;
+}
+.top {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 .5em .5em rgba(184,184,184);
+    border: lightgrey solid 1.5px;
+}
+
+
+
+.content[image=""] { 
+        box-shadow: none;
+    }
+
+
+h1{
+    text-align: center;
+    color: white;
+        letter-spacing: 10px;
+      cursor:url("pointer.png"), auto;
+
+}
+
+.title {
+    padding-top: 4em;
+     font-size:2.3vw;
+    letter-spacing: 1px;
+}
+
+
+@media (min-width: 20em) {
+    .title {
+    font-size: 2.4vw;
+    }
+}
+
+@media (min-width: 55em) {
+    .title {
+    font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 70em) {
+    .title {
+    font-size: 1.3vw;
+    }
+}
+
+
+.yearMade {
+        padding-top: .5em;
+        font-family: sans-serif;
+    font-size: .9em;
+}
+
+.type {
+    font-family: sans-serif;
+    font-size: .9em;
+}
+
+
+
+.descr {
+     font-family: sans-serif;
+    font-size: 1em;
+        text-align: center;
+    padding-bottom: 1em;
+    letter-spacing: .5px;
+    padding-top:.1em;
+
+}
+
+
+
+.biology {
+    font-size: 1vw;
+    letter-spacing: 2px;
+
+}
+
+@media (min-width: 20em) {
+     .biology {
+    letter-spacing: 2px;
+    font-size: 1.7vw;
+    }
+}
+
+@media (min-width: 55em) {
+    .biology {
+    letter-spacing: 2px;
+    font-size: 1.1vw;
+    }
+}
+
+@media (min-width: 70em) {
+    .biology {
+    letter-spacing: 2px;
+    font-size: .9vw;
+    }
+}
+ 
+
+h2 {
+    letter-spacing: 4px;
+    font-size: 2vw;
+    font-weight: 500;
+    min-width:600px;
+}
+
+
+
+@media (min-width: 10em) {
+    h2 {
+     letter-spacing: 4px;
+    font-size: 2vw;
+    }
+}
+
+@media (min-width: 20em) {
+    h2 {
+     letter-spacing: 4px;
+    font-size: 2.5vw;
+    }
+}
+
+
+@media (min-width: 50em) {
+    h2 {
+     letter-spacing: 4px;
+    font-size: 1.7vw;
+    }
+}
+
+@media (min-width: 70em) {
+    h2 {
+     letter-spacing: 4px;
+    font-size: 1vw;
+    }
+}
+
+
+h3 {
+    text-align: center;
+    max-height: 5vw;
+    padding-top:1em;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+    color: floralwhite;
+    font-size: .8em;
+        font-family: Trebuchet MS;    
+        margin-left: 4.4em;
+    margin-top: 1em;
+  cursor:url("pointer.png"), auto;
+
+
+}
+h6 {
+        padding: 0;
+        margin: 0;
+    color: floralwhite;
+        font-size: .8em;
+    font-family: Trebuchet MS; 
+        margin-left: 4.4em;
+        margin-top: 1em;
+  cursor:url("pointer.png"), auto;
+
+}
+
+h7 {
+    display: block;        
+    padding: .5em;
+    padding-bottom: 1em;
+    color: azure;
+        font-size: .9em;
+    letter-spacing: 5px;
+    font-family: Trebuchet MS;
+    margin-left: .4em;
+    margin-top: 2em;
+}
+
+h8 {
+        display: block;              
+    padding: .5em;
+    padding-bottom: 1em;
+    color: yellow;
+        font-size: 1em;
+    letter-spacing: 2px;
+    font-family: futura;
+    margin-left: 2em;
+    margin-top: 2em;
+
+}
+
+.update {
+     width: 100vw;
+        margin-right: .5em;
+    padding-top: 1em;
+
+}
+
+
+.links {
+padding-top: 1em;
+}
+
+.human {
+    margin: 1em;
+     width: 140vw;
+}
+
+p{
+    text-align: center;
+        color: black;
+
+}
+
+.pp{
+    text-align: left;
+        color: peachpuff;
+    padding-top: 3em;
+        padding-bottom: 1em;
+    padding-left: 1em;
+    letter-spacing: 5px;
+    font-size: 1.6vw;
+    max-width: 100%;
+
+}
+
+.mata, .nauti, .happyco {
+    font-size: 1.2vw;
+    color: white;
+    margin: 1vw;
+    margin-left: 74vw;
+    transition: margin 300ms;
+    display: flex;
+    align-items: center;
+    font-family: Trebuchet MS;
+    text-align: right;
+    line-height: .5vw;
+}
+
+ 
+
+.webicon { height: 1.2em;
+}
+
+.webico2 { height: 1.4em;
+        padding-left: 0.6em;
+
+}
+
+.webico3 { height: 1.4em;
+    padding-left: 1em;
+}
+
+.list-reset {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.none { display:none; }
+
+.clearfix::after,
+.group::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+#things { border-top: 1px solid;}
+#things .thing { border-bottom: 1px solid; }
+.thingWrapper {
+  padding: 1em;
+background: white;
+    max-width: 100%;
+  height: auto;
+    
+}
+
+.cover {
+  border: 1px solid;
+  background: white;
+  box-shadow: 0 0 .5em .5em rgba(48,48,48);
+  margin: 2em;
+  cursor:url("pointer.png"), auto;
+    width: 34em;
+    max-height:20%;
+    max-width: 28em;
+padding: 1em;
+    
+}
+
+.mycecover {
+    border: 1px solid;
+  background: white;
+  box-shadow: 0 0 .5em .5em rgba(48,48,48);
+  margin: 2em;
+  cursor:url("pointer.png"), auto;
+    width: 30em;
+    max-height:10%;
+    max-width: 13em;
+padding: 1em;
+}
+
+.mycecover:hover {
+    transform: scale(1.05);
+}
+
+
+.cover:hover {
+    transform: scale(1.05);
+}
+
+
+.stripe {
+  border-bottom: 1px solid black;
+}
+
+.stripe:nth-of-type(1) {
+  border-top: 1px solid;
+}
+
+.stack {
+  display: none;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: lightgray solid 1px; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: yellow; /* Text color */
+  cursor:url("pointer.png"), auto; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 10px; /* Increase font size */
+    font-family: futura;
+    font-weight: 100;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
