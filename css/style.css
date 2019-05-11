@@ -387,7 +387,7 @@ background: white;
     margin-right: auto;
         margin-left: auto;
     width: 15em;
-    
+    border-radius: .7em .7em 0em 0em;
   /* make it disapear */
   display: none;
 
@@ -410,6 +410,8 @@ background: white;
     max-height:20%;
     max-width: 28em;
 padding: 1em;
+        border-radius: .9em;
+
     
 }
 
@@ -423,15 +425,20 @@ padding: 1em;
     max-height:10%;
     max-width: 13em;
 padding: 1em;
+            border-radius: .9em;
+
 }
 
 .mycecover:hover {
     transform: scale(1.05);
+    border-radius: 0px;
 }
 
 
 .cover:hover {
     transform: scale(1.05);
+        border-radius: 0px;
+
 }
 
 
