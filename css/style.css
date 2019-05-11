@@ -378,7 +378,7 @@ background: white;
 
 .tag .showOnHover {
  /* just to make it look designed for the demo */
-  background: lightgrey;
+  background: rgb(220,220,220);
   color: white;
   padding:.3em .3em;
   /* the important stuff is below here */
