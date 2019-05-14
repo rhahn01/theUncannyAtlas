@@ -69,6 +69,8 @@ img {
     margin-right: auto;
     box-shadow: 0 0 .5em .5em rgba(184,184,184);
     border: lightgrey solid 1.5px;
+      cursor:url("pointer.png"), auto;
+
 }
     
 .content{
@@ -125,7 +127,7 @@ h1{
 
 .yearMade {
         padding-top: .5em;
-        font-family: sans-serif;
+        font-family: helvetica, sans-serif;
     font-size: .9em;
 }
 
@@ -159,11 +161,18 @@ color: black;
       font-family: sans-serif;
     font-size: .7em;
         text-align: center;
-    padding-bottom: 1em;
     letter-spacing: .5px;
-    padding-top:.1em;
 }
 
+.accession {
+          font-family: helvetica, sans-serif;
+        font-size: .6em;
+    padding-bottom:1em;
+        letter-spacing: .5px;
+
+
+
+}
 .biology {
     font-size: 1vw;
     letter-spacing: 2px;
@@ -191,6 +200,12 @@ color: black;
     }
 }
  
+@media (min-width: 90em) {
+    .biology {
+     letter-spacing: 2px;
+    font-size: .7vw;
+    }
+}
 
 h2 {
     letter-spacing: 4px;
@@ -227,6 +242,13 @@ h2 {
     h2 {
      letter-spacing: 4px;
     font-size: 1vw;
+    }
+}
+
+@media (min-width: 90em) {
+    h2 {
+     letter-spacing: 4px;
+    font-size: .8vw;
     }
 }
 
