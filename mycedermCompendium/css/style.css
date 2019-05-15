@@ -16,7 +16,9 @@ img {
   max-width: 100%;
   height: auto;
   max-height: 33vw;
+
 }
+
 
 .cmrd {
     padding:.4em;
@@ -49,7 +51,15 @@ margin-right: auto;
   padding: 5px;
 /*    float:left;*/
     border: orange solid 2px;
+        cursor:zoom-in,auto;
+
 }
+
+.center:active {
+    transform: scale(1.4);
+    border: none;
+}
+
 .button {
         display: block;
 
@@ -159,7 +169,7 @@ background: white;
   box-shadow: 0 0 .5em .5em rgba(0,0,0,.3);
   padding: 1em;
   margin: 1em;
-  cursor: url("pointer.png"), auto;
+  cursor:grab, auto;
 }
 
 .cover:hover {

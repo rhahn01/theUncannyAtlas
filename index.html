@@ -176,12 +176,12 @@
           <p style= "text-align:center" class="title">{{content/Work}}</p>
           <i> <p class="yearMade">{{yearMade}}</p></i> 
                                  {{#description}}<p class="descr">{{description}}</p>{{/description}}
-                                  <p class="serial"> serial #: {{serial}}</p>       
+                               {{#serial}}<p class="serial"> serial #: {{serial}}</p>{{/serial}}      
 
 <div class="tag">
 <div class="showOnHover"> <p class="type">{{type}}</p>  </div>
             {{#image}}<img src="img/{{year}}/{{image}}" class="content"/>{{/image}}
-                      <p class="accession"> ACCESSION KEY: {{accession}}</p>       
+                     {{#accession}}<p class="accession"> ACCESSION KEY: {{accession}}</p>{{/accession}}      
 
       </div>
         </div>
