@@ -492,10 +492,10 @@ background: white;
   margin: 2em;
   cursor:url("pointer.png"), auto;
     width: 34em;
-    max-height:20%;
-    max-width: 28em;
-padding: 1em;
-        border-radius: .9em;
+    max-height:25%;
+    max-width: 35em;
+    padding: 1em;
+   border-radius: .9em;
 
     
 }
@@ -507,8 +507,8 @@ padding: 1em;
   margin: 2em;
   cursor:url("pointer.png"), auto;
     width: 30em;
-    max-height:10%;
-    max-width: 13em;
+    max-height:12%;
+    max-width: 14em;
 padding: 1em;
             border-radius: .9em;
 
