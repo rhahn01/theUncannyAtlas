@@ -2,7 +2,7 @@ body {
   margin:0;
   padding:0; 
   font-family: futura, sans-serif;
-    background-color: black;
+    background-color: rgb(0,0,0);
 }
 
 * {
@@ -297,21 +297,21 @@ h2 {
 @media (min-width: 70em) {
     h2 {
      letter-spacing: 4px;
-    font-size: 1vw;
+    font-size: 1.5vw;
     }
 }
 
 @media (min-width: 90em) {
     h2 {
      letter-spacing: 4px;
-    font-size: .8vw;
+    font-size: 1vw;
     }
 }
 
 @media (min-width: 115em) {
     h2 {
      letter-spacing: 4px;
-    font-size: .85vw;
+    font-size: 1.1vw;
     }
 }
 
